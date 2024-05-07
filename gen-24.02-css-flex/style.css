@@ -1,0 +1,398 @@
+body{
+    margin: 0;
+    font-family: Apercu, Gill Sans MT, Gill Sans, Arial, sans-serif;
+}
+nav{
+    background-color: black;
+    position: fixed;
+    padding-top: 15px;
+    padding-bottom:10px;
+    width: 100%;
+    z-index: 3;
+}
+
+.seg-bar{
+    display: flex;
+    padding-left: 12px;
+    padding-right: 10px;
+    align-items: flex-start;
+    justify-content: center ;
+
+}
+.bar-category{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.bar-category > li {
+    transition: text-decoration-color 0.5s ease;
+}
+
+.bar-category > li > a:hover{
+    text-decoration: underline;
+    text-decoration-color: white ;
+}
+
+p.navbar{
+    padding-right: 20px;
+    font-size: 10pt;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.zalora-logo--white{
+    fill: white;
+    width: 132px;
+}
+
+li{
+    padding: 0;
+}
+
+#search{
+    border-radius: 0;
+    border: 0;
+    transition: outline-color 0.5s ease;
+}
+
+#search:active{
+    outline-color: #6D6e6e;
+}
+
+form > input{
+    padding: 4px;
+    padding-right: 200px;
+}
+
+::placeholder{
+    opacity: 0.5;
+    font-size: 9pt;
+}
+.search-button{
+    float: right;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    right: 22px;
+    z-index: 4;
+    overflow: visible;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.search-button > img {
+    width: 22px;
+    height: 22px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-image > img{
+    padding-left:50px;
+    width: 100px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-header{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1280px;
+    padding: 8px 0;
+    align-items: center;
+}
+
+#bottom-header-download{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    transition: opacity 0.5s ease;
+}
+
+#bottom-header-download:hover{
+    opacity: 80%;
+}
+
+.bottom-header > a > p{
+    font-size: 8pt;
+    color: black;
+}
+
+p{
+    margin: 0;
+}
+
+.navbar{
+    color: white;
+    font-size: 14pt;
+}
+
+.first-layer{
+    max-width: 996px;
+    justify-content: center;
+    align-items: center;
+}
+
+img.first-layer-image{
+    width: 100%;
+}
+
+img.first-layer-image:hover + .first-layer-button,
+.first-layer-button:hover{
+    color: white;
+    background-color: #398ae6;
+}
+
+.first-layer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    width: 180px;
+    height: 30px;
+    left: 647px;
+    bottom: 113px;
+    font-size: 8pt;
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.second-layer{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-layer-1{
+    padding: 8px;
+    max-height: 400px;
+}
+
+img.second-layer-1{
+    width: 20%;
+    object-fit: cover;
+}
+
+.second-layer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    width: 285px;
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+}
+
+.second-layer-2{
+    color: black;
+}
+
+.second-layer-1 > a > img:hover + .second-layer-2,
+.second-layer-2:hover{
+    background-color: black;
+    color:white;
+}
+
+.second-layer-1 > a > img{
+    transition: transform 0.5s, box-shadow 0.5s ease;
+}
+
+.second-layer-1 > a > img:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 8px #6d6e6e;
+}
+
+.second-layer-2 > a :hover{
+    color: white;
+}
+
+.second-third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.second-third > h2{
+    font-size: 20pt;
+    letter-spacing: 2px;
+    margin: 0;
+    color: #6D6e6e;
+}
+
+.main-third{
+    display: flex;
+    justify-content: center;
+}
+
+.third-layer{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #6D6e6e;
+    letter-spacing: 2px;
+    font-weight: 100;
+    width: 330px;
+    align-items: center;
+}
+
+.third-layer > img{
+    padding-bottom: 25px;
+}
+
+.third-layer > p{
+    letter-spacing: normal;
+    font-size: smaller;
+    text-align: center;
+}
+
+.main-fourth{
+    text-align: center;
+    color: #6D6e6e;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 100px;
+}
+
+.fourth-layer > p {
+    font-size: 9pt;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0;
+    max-width: 1344px;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: calc(3.33% + 10px);
+    padding-right: calc(3.33% + 10px);
+}
+
+.message{
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.message > img {
+    object-fit: cover;
+    width: 31px;
+    transition: opacity 0.5s ease;
+}
+
+.message{
+    transition: transform 0.5s ease;
+}
+
+.message:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    margin-top: 100px;
+    color: #6D6e6e;
+}
+
+.footer-top-layer-3 ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-size: 11pt;
+}
+
+.footer-top-{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top-layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-top-layer-1 > div > h4 {
+    padding-left: 40px;
+}
+
+.footer-top-layer-2{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    max-width: 600px;
+}
+
+.footer-top-layer-3{
+    min-width: 195px;
+}
+
+.footer-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    
+    width: 60%;
+}
+
+.footer-middle-layer > img{
+    max-width: 1200px;
+    min-width: 600px;
+}
+
+.footer-bottom-layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.footer-bottom-layer > img{
+    max-width: 1200px;
+    min-width: 600px;
+}
